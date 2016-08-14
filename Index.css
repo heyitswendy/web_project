@@ -141,18 +141,18 @@ img {
   font-weight: normal;
   position: absolute;
 }
-.D{
+.DesignerChart{
   margin: 2% 0;
 }
-.M{
+.ManufacturerChart{
   margin: 2% 29%;
 }
-.A{
+.AudienceChart{
   margin: 2% 60%;
   width: 20%;
 }
 .box3 {
-    background: url('desk-1081708_1920.jpg') no-repeat bottom center;
+    background: url('./Pictures/Home-bg.jpg') no-repeat bottom center;
     background-size: cover;
 }
 
@@ -190,4 +190,15 @@ pre {
   margin-left: 40%;
   position: absolute;
   z-index: 111111;
+}
+
+/*project2*/
+video {
+  min-width: 600px;
+  height: auto;
+}
+
+.box1.box2.box3 {
+  min-width: 600px;
+  height: auto;
 }
