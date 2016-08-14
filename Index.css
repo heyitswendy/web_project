@@ -120,7 +120,8 @@ img {
 
 .box3{
   position: relative;
-  height:500px
+  height:500px;
+  width: auto;
 }
 
 .box3 h {
