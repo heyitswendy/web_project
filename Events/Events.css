@@ -18,7 +18,7 @@
   }
 
 .wrapper {
-  background: url('./Events.jpg') no-repeat bottom center;
+  background: url('../Pictures/Events.jpg') no-repeat bottom center;
   background-size: cover;
   position: relative;
   height: 200px;
@@ -32,7 +32,7 @@
   font-family: Open Sans, Helvetica, sans-serif;
   text-align: center;
   color: rgba(255,255,255,0.6);
-  margin: -50px 2px;
+  margin: -4% 2%;
 }
 
 div p {
@@ -75,6 +75,7 @@ footer {
   font-size: 1.5vw;
   display: block;
   position: relative;
+  margin-top: 3%;
 }
 nav {
     position: fixed;
@@ -93,7 +94,7 @@ nav {
 .box4 li {
   display: inline;
   width: 10px;
-  padding-left: 13%;
+  padding-left: 11%;
 
 }
 pre {
@@ -103,3 +104,10 @@ pre {
   position: absolute;
   z-index: 111111;
 }
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media all and (min-width: 480px) and (max-width: 720px),
+(min-width: 1024px)

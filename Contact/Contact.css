@@ -18,7 +18,7 @@
   }
 
 .wrapper {
-  background: url('./Contact.jpeg') no-repeat bottom center;
+  background: url('../Pictures/Contact.jpeg') no-repeat bottom center;
   background-size: cover;
   position: relative;
   height: 200px;
@@ -54,8 +54,8 @@
   font-family: Open Sans, Helvetica, sans-serif;
   color: #c8c8c8;
   text-align: center;
-  padding-top: 5%;
-  font-size: 20px;
+  padding-top: 2%;
+  font-size: 2vw;
   line-height: 2;
 }
 
@@ -135,6 +135,7 @@ button:hover{
     font-size: 1.5vw;
     display: block;
     position: relative;
+    margin-top: 3%;
   }
   nav {
       position: fixed;
@@ -153,7 +154,7 @@ button:hover{
   .box4 li {
     display: inline;
     width: 10px;
-    padding-left: 13%;
+    padding-left: 11%;
 
   }
   pre {
@@ -163,3 +164,6 @@ button:hover{
     position: absolute;
     z-index: 111111;
   }
+
+  @media all and (min-width: 480px) and (max-width: 720px),
+  (min-width: 1024px)

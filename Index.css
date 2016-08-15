@@ -14,7 +14,7 @@ video.fullscreen {
 
 .box1 {
   position: absolute;
-  height: 90%;
+  height: 60%;
   width: 70%;
   background: rgba(0,0,0,0.3);
   top: 30%;
@@ -107,7 +107,7 @@ img {
   position: absolute;
 }
 .circlesone{
-  margin: 0.5 3.5%;
+  margin: 0 3.5%;
 }
 .circlestwo{
   position: absolute;
@@ -136,9 +136,9 @@ img {
 
 .box3 ul{
   float: left;
-  padding-left: 220px;
-  padding-top: 25px;
-  font-size: 25px;
+  padding-left: 14%;
+  padding-top: 3%;
+  font-size: 2vw;
   font-weight: normal;
   position: absolute;
 }
@@ -182,7 +182,7 @@ nav {
 .box4 li {
   display: inline;
   width: 10px;
-  padding-left: 13%;
+  padding-left: 11%;
 
 }
 pre {
@@ -199,18 +199,16 @@ pre {
   width: device-width;
 }
 
-@media all and (max-width: 300px){
-  .box1{
-    width: 100%;
-  }
-}
+@media all and (min-width: 480px) and (max-width: 720px),
+(min-width: 1024px)
+
 
 video {
-  min-width: 480px;
+  max-width: 100%;
   height: auto;
 }
 
 .box1.box2.box3 {
-  min-width: 480px;
+  max-width: 100%;
   height: auto;
 }
