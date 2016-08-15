@@ -85,6 +85,7 @@ p {
   float: left;
   word-spacing: 10px;
   position: absolute;
+  font-size: 1.5vw;
 }
 .one{
   margin: 3% 15%;
@@ -97,8 +98,8 @@ p {
 }
 
 img {
-  width: 400px;
-  height: 300px;
+  width: 33%;
+  height: 62%;
   top:20%;
   margin-top: -3%;
   margin-left: 3%;
@@ -153,14 +154,14 @@ img {
 }
 .box3 {
     background: url('./Pictures/Home-bg.jpg') no-repeat bottom center;
-    background-size: cover;
+    width: 100%;
 }
 
 footer {
   width: auto;
   font-family: 'Open Sans', sans-serif;
   color: black;
-  font-size: 16px;
+  font-size: 1.5vw;
   display: block;
   position: relative;
 }
@@ -204,13 +205,12 @@ pre {
   }
 }
 
-
 video {
-  min-width: 300px;
+  min-width: 480px;
   height: auto;
 }
 
 .box1.box2.box3 {
-  min-width: 600px;
+  min-width: 480px;
   height: auto;
 }
