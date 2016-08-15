@@ -32,11 +32,11 @@
   text-align: right;
 }
 .wrapperquestions{
-  font-size: 25px;
+  font-size: 150%;
   font-weight: lighter;
 }
 .target{
-  font-size: 30px;
+  font-size: 200%;
   font-weight: bold;
 }
 
@@ -60,16 +60,16 @@
 }
 
 .contactform{
-  width:380px;
-  height:580px;
+  width: 40%;
+  height: 585px;
   background:#5c5c8a;
   border-radius:8px;
   padding:20px 30px;
   font-family:'Montserrat',sans-serif;
-  position:relative;
   float: right;
-  display: inline-block;
-  margin: -23% 2%
+  position: absolute;;
+  display: inline;
+  margin: -237px 3%;
 }
 
 .contactform label{
