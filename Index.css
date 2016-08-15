@@ -7,19 +7,18 @@ video.fullscreen {
   position: relative;
   top: 0;
   left: 0;
-  width: auto;
+  width: 100%;
   height: auto;
   z-index: 1;
 }
 
 .box1 {
   position: absolute;
-  height:280px;
-  width:800px;
+  height: 60%;
+  width: 70%;
   background: rgba(0,0,0,0.3);
-  opacity: 1;
   top: 30%;
-  left: 20%;
+  left: 15%;
   z-index: 999;
 }
 
@@ -30,9 +29,9 @@ video.fullscreen {
   justify-content: center;
 }
 .box1 h1{
-  font-size:80px;
-  margin: 30px 30px;
-  letter-spacing: 10px;
+  font-size: 8.5vw;
+  margin: 20px 0;
+  letter-spacing: 11px;
 }
 
 .box1 h2,h3{
@@ -42,7 +41,7 @@ video.fullscreen {
 
 .box1 h2{
    font-family:'Tangerine', Helvetica, Sans-serif;
-   font-size: 40px;
+   font-size: 3.5vw;
 }
 
 .box1 h3{
@@ -86,6 +85,7 @@ p {
   float: left;
   word-spacing: 10px;
   position: absolute;
+  font-size: 1.5vw;
 }
 .one{
   margin: 3% 15%;
@@ -98,8 +98,8 @@ p {
 }
 
 img {
-  width: 400px;
-  height: 300px;
+  width: 33%;
+  height: 62%;
   top:20%;
   margin-top: -3%;
   margin-left: 3%;
@@ -107,7 +107,7 @@ img {
   position: absolute;
 }
 .circlesone{
-  margin: 0.5 3.5%;
+  margin: 0 3.5%;
 }
 .circlestwo{
   position: absolute;
@@ -120,7 +120,8 @@ img {
 
 .box3{
   position: relative;
-  height:500px
+  height:500px;
+  width: auto;
 }
 
 .box3 h {
@@ -135,32 +136,32 @@ img {
 
 .box3 ul{
   float: left;
-  padding-left: 220px;
-  padding-top: 25px;
-  font-size: 25px;
+  padding-left: 14%;
+  padding-top: 3%;
+  font-size: 2vw;
   font-weight: normal;
   position: absolute;
 }
-.D{
+.DesignerChart{
   margin: 2% 0;
 }
-.M{
+.ManufacturerChart{
   margin: 2% 29%;
 }
-.A{
+.AudienceChart{
   margin: 2% 60%;
   width: 20%;
 }
 .box3 {
-    background: url('desk-1081708_1920.jpg') no-repeat bottom center;
-    background-size: cover;
+    background: url('./Pictures/Home-bg.jpg') no-repeat bottom center;
+    width: 100%;
 }
 
 footer {
   width: auto;
   font-family: 'Open Sans', sans-serif;
   color: black;
-  font-size: 16px;
+  font-size: 1.5vw;
   display: block;
   position: relative;
 }
@@ -181,7 +182,7 @@ nav {
 .box4 li {
   display: inline;
   width: 10px;
-  padding-left: 13%;
+  padding-left: 11%;
 
 }
 pre {
@@ -190,4 +191,24 @@ pre {
   margin-left: 40%;
   position: absolute;
   z-index: 111111;
+}
+
+/*project2*/
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media all and (min-width: 480px) and (max-width: 720px),
+(min-width: 1024px)
+
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.box1.box2.box3 {
+  max-width: 100%;
+  height: auto;
 }
