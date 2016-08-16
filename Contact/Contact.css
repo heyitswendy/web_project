@@ -164,5 +164,5 @@ button:hover{
     position: absolute;
     z-index: 111111;
   }
-
-@media all and (min-width: 480px) and (max-width: 1024px)
+/*
+@media all and (min-width: 480px) and (max-width: 1024px)*/
