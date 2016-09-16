@@ -2,6 +2,8 @@
 
  <head>
   <link rel="stylesheet" type="text/css" href="Contact.css" media="all">
+  <script type="text/javascript" src="../script.js"></script>
+  <script src="https://use.fontawesome.com/38fd122a41.js"></script>
   <title>Contact Us - 1001LIKES</title>
  </head>
 
@@ -19,21 +21,31 @@
   </section>
 
   <section class="map">
-    <p>Google Map<p>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTUV8Dgh_WNLpx88zd5-UqzElv7CIZ4Ck&callback=initMap"
+    async defer></script>
   </section>
 
   <section class="contactform">
 
     <label>First Name</label>
-    <input type="First Name"/>
+      <input type="First Name" name="first_name"/>
     <label>Last Name</label>
-    <input type="Last Name"></input>
+      <input type="Last Name"></input>
     <label>Email</label>
-    <input type="Email"></input>
+      <input type="Email"></input>
     <label>Message</label>
-    <input type="Message"></input>
+      <textarea name="txtScript" cols="53" rows="13"></textarea>
+    <button class="send-button">Send</button>
 
-    <button>Submit</button>
+    <h1 class='result'></h1>
+  </section>
+
+  <section class="ads">
+    <button class="adbar-button">
+        <i class="fa fa-bars adbar-button-icon" aria-hidden="true"></i>
+    </button>
+    <p>ads</p>
 
   </section>
 

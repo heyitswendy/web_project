@@ -1,3 +1,14 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+@media all and (min-width: 720px) and (max-width: 1024px){
+  .two, .three {
+    flex-direction: column;
+  }
+}
+
+
 body {
   margin: 0;
   background: #c8c8c8;
@@ -66,19 +77,19 @@ h3 a {
   height: 500px;
   position: relative;
 }
-.box2 h {
+.box2 h1 {
+  display: flex;
   font-family: 'Open Sans', sans-serif;
   color: #5c5c8a;
-  font-size: 40px;;
-  width: 260px;
-  display: flex;
+  font-size: 40px;
+  font-weight: 500;
   margin-left: 40%;
   margin-top: 3%;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
-  margin-left: 13%;
+  margin-left: 11%;
   margin-top: 4%;
   width: 200px;
   display: inline;
@@ -87,35 +98,18 @@ p {
   position: absolute;
   font-size: 1.5vw;
 }
-.one{
-  margin: 3% 15%;
-}
+
 .two{
-  margin:3% 44%;
+  margin: 0 38%;
 }
 .three{
-  margin: 3% 75%;
+  margin: 0 70%;
 }
 
 img {
-  width: 33%;
-  height: 62%;
+  width: 35%;
   top:20%;
-  margin-top: -3%;
-  margin-left: 3%;
-  margin-right: -5%;
   position: absolute;
-}
-.circlesone{
-  margin: 0 3.5%;
-}
-.circlestwo{
-  position: absolute;
-  margin: 0 34%;
-}
-.circlesthree{
-  position: absolute;
-  margin: -2% 65%
 }
 
 .box3{
@@ -124,14 +118,14 @@ img {
   width: auto;
 }
 
-.box3 h {
-   font-family: 'Open Sans', sans-serif;
-  color: #5c5c8a;
+.box3 h1 {
   display: flex;
-  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #5c5c8a;
   font-size: 40px;
+  font-weight: 500;
   padding-top: 3%;
-  margin-left: 2%;
+  margin-left: 37%;
 }
 
 .box3 ul{
@@ -142,13 +136,13 @@ img {
   font-weight: normal;
   position: absolute;
 }
-.DesignerChart{
+.DesignerList{
   margin: 2% 0;
 }
-.ManufacturerChart{
+.ManufacturerList{
   margin: 2% 29%;
 }
-.AudienceChart{
+.AudienceList{
   margin: 2% 60%;
   width: 20%;
 }
@@ -193,13 +187,7 @@ pre {
   z-index: 111111;
 }
 
-/*project2*/
 
-@-ms-viewport{
-  width: device-width;
-}
-
-/*@media all and (min-width: 480px) and (max-width: 1024px)*/
 
 
 video {
