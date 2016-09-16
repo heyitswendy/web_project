@@ -18,7 +18,7 @@
   }
 
 .wrapper {
-  background: url('../Pictures/Events.jpg') no-repeat bottom center;
+  background: url('../Pictures/Events.JPG') no-repeat bottom center;
   background-size: cover;
   position: relative;
   height: 200px;
@@ -109,5 +109,4 @@ pre {
   width: device-width;
 }
 
-@media all and (min-width: 480px) and (max-width: 720px),
-(min-width: 1024px)
+/*@media all and (min-width: 480px) and (max-width: 1024px)*/
